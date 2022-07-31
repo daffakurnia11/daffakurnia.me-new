@@ -101,3 +101,24 @@
     transform: translateX(-50%);
   }
 }
+
+.short-divider {
+  margin: 8px 0;
+  width: 50px;
+  height: 4px;
+  background-color: $primary-blue;
+  box-shadow: $shadow-inner;
+  border-radius: 4px;
+  position: relative;
+  &::after {
+    background-color: $light-blue;
+    border-radius: 4px;
+    position: absolute;
+    width: 25px;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
