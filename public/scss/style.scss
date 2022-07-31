@@ -47,11 +47,18 @@ body {
   position: sticky;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 992px) {
+    min-height: fit-content;
+    margin: 24px auto;
+  }
   .menu {
     padding: 48px 24px;
+    @media screen and (max-width: 992px) {
+      padding: 24px 16px;
+    }
     &-profile {
-      width: 200px;
-      height: 200px;
+      max-width: 200px;
+      max-height: 200px;
       margin: auto;
     }
     &-fullname {
@@ -71,4 +78,31 @@ body {
   position: sticky;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 992px) {
+    min-height: fit-content;
+    margin: 24px auto;
+  }
+}
+
+.home {
+  padding: 64px 32px 32px;
+  @media screen and (max-width: 992px) {
+    padding: 32px 16px 24px;
+  }
+  &-title {
+    @include heading2($light-blue);
+  }
+  &-desc {
+    @include body1($light-blue);
+    .desc-highlight {
+      @include body1($primary-white);
+      display: inline-block;
+      padding: 4px 16px;
+      box-shadow: $shadow-inner;
+      border-radius: 16px;
+    }
+  }
+  &-button {
+    @include body1();
+  }
 }

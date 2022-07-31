@@ -8,15 +8,15 @@ export default function Menu(props) {
     <div id="menu">
       <InnerOuterBox>
         <div className="menu">
-          <div className="menu-profile mb-3">
+          <div className="menu-profile mb-3 d-none d-lg-block">
             <InnerOuterCircle>
               <Image src="img/profile.jpg" roundedCircle fluid></Image>
             </InnerOuterCircle>
           </div>
           <h2 className="menu-fullname text-center">Daffa Kurnia Fatah</h2>
           <p className="menu-jobs text-center">Software Developer</p>
-          <ul className="menu-list mt-3 text-center">
-            <li className="mb-3">
+          <ul className="menu-list mt-3 text-center d-flex flex-row flex-wrap justify-content-center flex-lg-column">
+            <li className="mb-3 mx-2 mx-lg-0">
               {props.children === 'Home' ? (
                 <InnerFull>Home</InnerFull>
               ) : (
@@ -25,7 +25,7 @@ export default function Menu(props) {
                 </Link>
               )}
             </li>
-            <li className="mb-3">
+            <li className="mb-3 mx-2 mx-lg-0">
               {props.children === 'About' ? (
                 <InnerFull>About</InnerFull>
               ) : (
@@ -34,21 +34,21 @@ export default function Menu(props) {
                 </Link>
               )}
             </li>
-            <li className="mb-3">
+            <li className="mb-3 mx-2 mx-lg-0">
               {props.children === 'Experiences' ? (
                 <InnerFull>Experiences</InnerFull>
               ) : (
                 <OuterFull>Experiences</OuterFull>
               )}
             </li>
-            <li className="mb-3">
+            <li className="mb-3 mx-2 mx-lg-0">
               {props.children === 'Projects' ? (
                 <InnerFull>Projects</InnerFull>
               ) : (
                 <OuterFull>Projects</OuterFull>
               )}
             </li>
-            <li className="mb-3">
+            <li className="mb-3 mx-2 mx-lg-0">
               {props.children === 'Contact' ? (
                 <InnerFull>Contact</InnerFull>
               ) : (

@@ -42,15 +42,62 @@
 }
 
 .inner-full {
-  padding: 8px;
+  padding: 8px 24px;
   background-color: $primary-blue;
   box-shadow: $shadow-inner;
   border-radius: 48px;
 }
 
 .outer-full {
-  padding: 8px;
+  padding: 8px 24px;
   background-color: $primary-blue;
   box-shadow: $shadow-outer;
   border-radius: 48px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: $shadow-inner;
+  }
+}
+
+.outer-fit {
+  width: fit-content;
+  padding: 8px 24px;
+  background-color: $primary-blue;
+  box-shadow: $shadow-outer;
+  border-radius: 48px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: $shadow-inner;
+  }
+}
+
+.outer-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: $shadow-outer;
+  border-radius: 20px;
+}
+
+.long-divider {
+  margin: 54px auto;
+  width: 100px;
+  height: 4px;
+  background-color: $primary-blue;
+  box-shadow: $shadow-inner;
+  border-radius: 4px;
+  position: relative;
+  &::after {
+    background-color: $light-blue;
+    border-radius: 4px;
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
