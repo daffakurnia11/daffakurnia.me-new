@@ -1,0 +1,32 @@
+@mixin heading5($color: $primary-white) {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0px;
+
+  color: $color;
+}
+
+@mixin body2($color: $primary-white) {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+
+  color: $color;
+}
+
+@mixin body1($color: $primary-white) {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+  color: $color;
+}

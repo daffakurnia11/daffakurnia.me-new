@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+a:hover,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.inner-outer-box {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 16px;
+  width: 100%;
+  padding: 12px;
+  position: relative;
+}
+
+.inner-outer-box::after {
+  background-color: #0d0d2b;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  content: "";
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  margin: 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 12px;
+}
+
+.inner-outer-circle {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  position: relative;
+}
+
+.inner-outer-circle::after {
+  background-color: #0d0d2b;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  content: "";
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  margin: 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 50%;
+}
+
+.inner-full {
+  padding: 8px;
+  background-color: #0d0d2b;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 48px;
+}
+
+.outer-full {
+  padding: 8px;
+  background-color: #0d0d2b;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 48px;
+}
+
+body {
+  background-color: #0d0d2b;
+  color: #ffffff;
+  min-height: 100vh;
+  position: relative;
+}
+
+body #bg-component {
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+body #bg-component .top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body #bg-component .top-middle {
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+body #bg-component .top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body #bg-component .bottom-left {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+}
+
+body #bg-component .bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#menu {
+  min-height: 100vh;
+  position: sticky;
+  display: flex;
+  align-items: center;
+}
+
+#menu .menu {
+  padding: 48px 24px;
+}
+
+#menu .menu-profile {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+#menu .menu-fullname {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #a6bcff;
+}
+
+#menu .menu-jobs {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #a6bcff;
+}
+
+#menu .menu-list {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+#content {
+  min-height: 100vh;
+  position: sticky;
+  display: flex;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

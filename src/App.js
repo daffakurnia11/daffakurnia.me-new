@@ -1,6 +1,18 @@
+import { Routes, Route } from "react-router-dom";
+import Background from "./Components/Background";
+
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Background />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </>
   );
 }
 
