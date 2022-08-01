@@ -225,6 +225,16 @@ table {
   border-radius: 20px;
 }
 
+.outer-small-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 20px;
+}
+
 .long-divider {
   margin: 54px auto;
   width: 100px;
@@ -503,6 +513,12 @@ body #bg-component .bottom-right {
   padding: 32px 48px;
 }
 
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 16px 24px;
+  }
+}
+
 .about-section {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -552,5 +568,122 @@ body #bg-component .bottom-right {
 
 .about-content .content-highlight {
   color: #ffffff;
+}
+
+.experiences {
+  padding: 32px 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .experiences {
+    padding: 16px 24px;
+  }
+}
+
+.experiences .skills-section {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #a6bcff;
+}
+
+.experiences .skills-list {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .experiences .skills-list {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.experiences .experience-section {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #a6bcff;
+}
+
+.experiences .experience .section-content {
+  position: relative;
+  margin-left: 18.5px;
+}
+
+.experiences .experience .section-content::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 3px;
+  top: 0;
+  left: 0;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
+  background-color: #0d0d2b;
+}
+
+.experiences .experience .section-content .content-list {
+  padding-left: 16px;
+  position: relative;
+}
+
+.experiences .experience .section-content .content-list::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 3px;
+  background-color: #a6bcff;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
+}
+
+.experiences .experience .section-content .content-list .list-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.experiences .experience .section-content .content-list .list-date {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: #d3deff;
+}
+
+.experiences .experience .section-content .content-list .list-date .present-highlight {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+.experiences .experience .section-content .content-list .list-place {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: #a6bcff;
 }
 /*# sourceMappingURL=style.css.map */

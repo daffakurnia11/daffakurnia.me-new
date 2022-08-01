@@ -81,6 +81,16 @@
   border-radius: 20px;
 }
 
+.outer-small-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: $shadow-outer;
+  border-radius: 20px;
+}
+
 .long-divider {
   margin: 54px auto;
   width: 100px;

@@ -46,17 +46,6 @@
   color: $color;
 }
 
-@mixin body2($color: $primary-white) {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.25px;
-
-  color: $color;
-}
-
 @mixin body1($color: $primary-white) {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -70,4 +59,26 @@
     font-size: 14px;
     line-height: 18px;
   }
+}
+
+@mixin body2($color: $primary-white) {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+
+  color: $color;
+}
+
+@mixin body3($color: $primary-white) {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+
+  color: $color;
 }

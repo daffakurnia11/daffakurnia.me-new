@@ -13,3 +13,7 @@ export function OuterFit(props) {
 export function OuterIcon(props) {
   return <div className="outer-icon">{props.children}</div>
 }
+
+export function OuterSmallIcon(props) {
+  return <div className="outer-small-icon">{props.children}</div>
+}
