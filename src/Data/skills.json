@@ -1,0 +1,34 @@
+[
+  {
+    "skills" : "Github",
+    "icons" : "github-icon.svg"
+  },
+  {
+    "skills" : "Figma",
+    "icons" : "figma-icon.svg"
+  },
+  {
+    "skills" : "Bootstrap",
+    "icons" : "bootstrap-icon.svg"
+  },
+  {
+    "skills" : "Sass",
+    "icons" : "sass-icon.svg"
+  },
+  {
+    "skills" : "Codeigniter",
+    "icons" : "codeigniter-icon.svg"
+  },
+  {
+    "skills" : "Laravel",
+    "icons" : "laravel-icon.svg"
+  },
+  {
+    "skills" : "ReactJS",
+    "icons" : "react-icon.svg"
+  },
+  {
+    "skills" : "Kotlin",
+    "icons" : "kotlin-icon.svg"
+  }
+]

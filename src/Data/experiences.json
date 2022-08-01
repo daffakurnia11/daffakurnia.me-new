@@ -1,0 +1,202 @@
+[
+  {
+    "title" : "Coordinator of Laboratory Assistant",
+    "type" : "Experience",
+    "date" : {
+      "start" : "March 2022",
+      "ended" : null
+    },
+    "description" : "At Embedded and Cyber-physics System Laboratory, Institut Teknologi Sepuluh Nopember",
+    "link" : null
+  },
+  {
+    "title" : "Founder and Full Stack Web Developer",
+    "type" : "Experience",
+    "date" : {
+      "start" : "April 2021",
+      "ended" : null
+    },
+    "description" : "At Breakpoint Indonesia, Surabaya",
+    "link" : null
+  },
+  {
+    "title" : "Extracurricular Coach",
+    "type" : "Experience",
+    "date" : {
+      "start" : "January 2020",
+      "ended" : null
+    },
+    "description" : "At Robotics Extracurricular, Public Senior High School 1 Sidoarjo",
+    "link" : null
+  },
+  {
+    "title" : "Coordinator of Web Development",
+    "type" : "Experience",
+    "date" : {
+      "start" : "November 2021",
+      "ended" : "May 2022"
+    },
+    "description" : "At Petrolida 2022 by Society of Petroleum Engineer (SPE) ITS Student Chapter",
+    "link" : null
+  },
+  {
+    "title" : "IT Manager",
+    "type" : "Experience",
+    "date" : {
+      "start" : "October 2021",
+      "ended" : "February 2022"
+    },
+    "description" : "At Engineering Physics Week (EPW) 2022, Institut Teknologi Sepuluh Nopember",
+    "link" : null
+  },
+  {
+    "title" : "Head of Web Development",
+    "type" : "Experience",
+    "date" : {
+      "start" : "August 2021",
+      "ended" : "June 2022"
+    },
+    "description" : "At Society of Petroleum Engineers (SPE) ITS Student Chapter",
+    "link" : null
+  },
+  {
+    "title" : "Expert Staff of Web Development",
+    "type" : "Experience",
+    "date" : {
+      "start" : "July 2021",
+      "ended" : "August 2021"
+    },
+    "description" : "At Gerigi ITS 2021, Institut Teknologi Sepuluh Nopember",
+    "link" : null
+  },
+  {
+    "title" : "Staff of IT Developer",
+    "type" : "Experience",
+    "date" : {
+      "start" : "December 2020",
+      "ended" : "March 2021"
+    },
+    "description" : "At Ini Lho ITS! 2021, Institut Teknologi Sepuluh Nopember",
+    "link" : null
+  },
+  {
+    "title" : "Mobile Development Cohort",
+    "type" : "Competence",
+    "date" : {
+      "start" : "February 2022",
+      "ended" : "July 2022"
+    },
+    "description" : "By Bangkit Academy 2022 supported by Google, GoTo, Traveloka, and Dicoding Academy",
+    "link" : null
+  },
+  {
+    "title" : "Alibaba Cloud AI Forward 2021",
+    "type" : "Competence",
+    "date" : {
+      "start" : "October 2021",
+      "ended" : null
+    },
+    "description" : "By Alibaba Cloud Academy",
+    "link" : null
+  },
+  {
+    "title" : "Re-Cloud Challenges Indonesia 2021",
+    "type" : "Competence",
+    "date" : {
+      "start" : "March 2021",
+      "ended" : null
+    },
+    "description" : "By Alibaba Cloud, TIANCHY, and Codepolitan",
+    "link" : null
+  },
+  {
+    "title" : "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    "type" : "Certification",
+    "date" : {
+      "start" : "28 July 2022",
+      "ended" : "28 July 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/1OP867L71XQK"
+  },
+  {
+    "title" : "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    "type" : "Certification",
+    "date" : {
+      "start" : "26 July 2022",
+      "ended" : "26 July 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/RVZK603N4ZD5"
+  },
+  {
+    "title" : "Meniti Karier sebagai Software Developer",
+    "type" : "Certification",
+    "date" : {
+      "start" : "8 July 2022",
+      "ended" : "8 July 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/MEPJE98EJX3V"
+  },
+  {
+    "title" : "Belajar Dasar UX Design",
+    "type" : "Certification",
+    "date" : {
+      "start" : "29 June 2022",
+      "ended" : "29 June 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/KEXLG11QWZG2"
+  },
+  {
+    "title" : "Belajar Pengembangan Aplikasi Android Intermediate",
+    "type" : "Certification",
+    "date" : {
+      "start" : "26 June 2022",
+      "ended" : "26 June 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/1RXYM1G8QXVM"
+  },
+  {
+    "title" : "Belajar Fundamental Aplikasi Android",
+    "type" : "Certification",
+    "date" : {
+      "start" : "6 April 2022",
+      "ended" : "6 April 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/81P2GQQ7JPOY"
+  },
+  {
+    "title" : "Belajar Dasar Git dengan GitHub",
+    "type" : "Certification",
+    "date" : {
+      "start" : "3 April 2022",
+      "ended" : "3 April 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/6RPN8ME84Z2M"
+  },
+  {
+    "title" : "Belajar Prinsip Pemrograman SOLID",
+    "type" : "Certification",
+    "date" : {
+      "start" : "3 April 2022",
+      "ended" : "3 April 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/JLX13N6Y2P72"
+  },
+  {
+    "title" : "Memulai Pemrograman Dengan Kotlin",
+    "type" : "Certification",
+    "date" : {
+      "start" : "23 February 2022",
+      "ended" : "23 February 2025"
+    },
+    "description" : "At Dicoding Academy",
+    "link" : "https://www.dicoding.com/certificates/GRX5K6W6YZ0M"
+  }
+]
