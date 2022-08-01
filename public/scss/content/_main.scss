@@ -1,0 +1,10 @@
+#content {
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 992px) {
+    min-height: fit-content;
+    margin: 24px auto;
+  }
+}

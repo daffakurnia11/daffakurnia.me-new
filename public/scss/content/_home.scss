@@ -1,0 +1,22 @@
+.home {
+  padding: 64px 32px 32px;
+  @media screen and (max-width: 992px) {
+    padding: 32px 16px 24px;
+  }
+  &-title {
+    @include heading2($primary-tosca);
+  }
+  &-desc {
+    @include body1($light-blue);
+    .desc-highlight {
+      @include body1($primary-white);
+      display: inline-block;
+      padding: 4px 16px;
+      box-shadow: $shadow-inner;
+      border-radius: 16px;
+    }
+  }
+  &-button {
+    @include body1();
+  }
+}

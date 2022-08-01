@@ -47,7 +47,9 @@ export default function Menu(props) {
               {props.children === 'Projects' ? (
                 <InnerFull>Projects</InnerFull>
               ) : (
-                <OuterFull>Projects</OuterFull>
+                <Link to="/projects">
+                  <OuterFull>Projects</OuterFull>
+                </Link>
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">

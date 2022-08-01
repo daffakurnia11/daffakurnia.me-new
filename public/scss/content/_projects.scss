@@ -1,0 +1,9 @@
+.projects {
+  padding: 32px 48px;
+  @media screen and (max-width: 768px) {
+    padding: 16px 24px;
+  }
+  &-title {
+    @include subtitle1($light-blue);
+  }
+}

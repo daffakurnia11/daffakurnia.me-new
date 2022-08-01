@@ -1,0 +1,63 @@
+.experiences {
+  padding: 32px 48px;
+  @media screen and (max-width: 768px) {
+    padding: 16px 24px;
+  }
+  .skills {
+    &-section {
+      @include subtitle1($light-blue);
+    }
+    &-list {
+      @include body1($primary-white);
+    }
+  }
+  .experience {
+    &-section {
+      @include subtitle1($light-blue);
+    }
+    .section-content {
+      position: relative;
+      margin-left: 18.5px;
+      &::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 3px;
+        top: 0;
+        left: 0;
+        box-shadow: $shadow-inner;
+        background-color: $primary-blue;
+      }
+      .content-list {
+        padding-left: 16px;
+        position: relative;
+        &::before {
+          position: absolute;
+          content: "";
+          top: 0;
+          left: 0;
+          height: 16px;
+          width: 3px;
+          background-color: $light-blue;
+          border-radius: 4px;
+          box-shadow: $shadow-outer;
+        }
+        .list-title {
+          @include subtitle1($primary-white);
+          text-align: justify;
+        }
+        .list-date {
+          @include body3($primary-tosca);
+          .present-highlight {
+            box-shadow: $shadow-inner;
+            border-radius: 16px;
+            padding: 4px 12px;
+          }
+        }
+        .list-place {
+          @include body3($light-blue);
+        }
+      }
+    }
+  }
+}

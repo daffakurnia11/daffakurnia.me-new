@@ -1,0 +1,21 @@
+.about {
+  padding: 32px 48px;
+  @media screen and (max-width: 768px) {
+    padding: 16px 24px;
+  }
+  &-section {
+    @include subtitle1($light-blue);
+  }
+  &-title {
+    @include heading4($primary-tosca);
+  }
+  &-jobs {
+    @include body2($light-blue);
+  }
+  &-content {
+    @include body1($light-blue);
+    .content-highlight {
+      color: $primary-white;
+    }
+  }
+}

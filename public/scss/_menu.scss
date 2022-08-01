@@ -1,0 +1,32 @@
+#menu {
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 992px) {
+    min-height: fit-content;
+    margin: 24px auto;
+  }
+  .menu {
+    padding: 32px 24px;
+    @media screen and (max-width: 992px) {
+      padding: 24px 16px;
+    }
+    &-profile {
+      max-width: 200px;
+      max-height: 200px;
+      margin: auto;
+    }
+    &-fullname {
+      @include heading5($light-blue);
+    }
+    &-jobs {
+      @include body2($light-blue);
+    }
+    &-list {
+      @include body1();
+    }
+  }
+}

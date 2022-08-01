@@ -686,4 +686,24 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #a6bcff;
 }
+
+.projects {
+  padding: 32px 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 16px 24px;
+  }
+}
+
+.projects-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #a6bcff;
+}
 /*# sourceMappingURL=style.css.map */

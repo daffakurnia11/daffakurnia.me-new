@@ -1,0 +1,58 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $light-blue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $primary-tosca;
+}
+
+body {
+  background-color: $primary-blue;
+  color: $primary-white;
+  min-height: 100vh;
+  position: relative;
+  #bg-component {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    .top-left {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .top-middle {
+      position: absolute;
+      top: 0;
+      left: 15px;
+    }
+    .top-right {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .bottom-left {
+      position: absolute;
+      bottom: -100px;
+      left: 0;
+    }
+    .bottom-right {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
