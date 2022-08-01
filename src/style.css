@@ -183,6 +183,14 @@ table {
   border-radius: 50%;
 }
 
+.outer-box {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+}
+
 .inner-full {
   padding: 8px 24px;
   background-color: #0d0d2b;
@@ -687,17 +695,17 @@ body #bg-component .bottom-right {
   color: #a6bcff;
 }
 
-.projects {
+.project {
   padding: 32px 48px;
 }
 
 @media screen and (max-width: 768px) {
-  .projects {
+  .project {
     padding: 16px 24px;
   }
 }
 
-.projects-title {
+.project-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -705,5 +713,78 @@ body #bg-component .bottom-right {
   line-height: 20px;
   letter-spacing: 0.15px;
   color: #a6bcff;
+}
+
+.project-subtitle {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+.project-section-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .project-section-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.project-content {
+  width: 100%;
+  height: 285px;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  .project-content {
+    height: fit-content;
+    padding-bottom: 72px;
+  }
+}
+
+.project-content-name {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+.project-content-desc {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.project-content-link {
+  position: absolute;
+  bottom: 24px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

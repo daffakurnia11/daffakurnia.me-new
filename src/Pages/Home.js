@@ -2,7 +2,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { OuterFit, OuterIcon } from "../Components/Button";
 import { LongDivider } from "../Components/Divider";
-import { InnerOuterBox } from "../Components/InnerOuterBox";
+import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
 
 function Home() {

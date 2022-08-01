@@ -1,9 +1,36 @@
-.projects {
+.project {
   padding: 32px 48px;
   @media screen and (max-width: 768px) {
     padding: 16px 24px;
   }
   &-title {
     @include subtitle1($light-blue);
+  }
+  &-subtitle {
+    @include subtitle2($primary-white);
+  }
+  &-section-title {
+    @include body1($primary-white);
+  }
+  &-content {
+    width: 100%;
+    height: 285px;
+    position: relative;
+    @media screen and (max-width: 576px) {
+      height: fit-content;
+      padding-bottom: 72px;
+    }
+    &-name {
+      @include body2($primary-white);
+    }
+    &-desc {
+      @include body3($primary-white);
+      text-align: justify;
+    }
+    &-link {
+      position: absolute;
+      bottom: 24px;
+      @include body2($primary-white);
+    }
   }
 }

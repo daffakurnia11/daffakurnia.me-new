@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
 import { InnerFull, OuterFull } from "./Button";
-import { InnerOuterBox, InnerOuterCircle } from "./InnerOuterBox";
+import { InnerOuterBox, InnerOuterCircle } from "./Box";
 import { Link } from "react-router-dom";
 
 export default function Menu(props) {

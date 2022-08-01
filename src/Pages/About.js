@@ -1,5 +1,5 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { InnerOuterBox } from "../Components/InnerOuterBox";
+import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
 import { ShortDivider } from "../Components/Divider";
 import { OuterIcon } from "../Components/Button";

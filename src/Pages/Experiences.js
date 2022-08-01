@@ -1,5 +1,5 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { InnerOuterBox } from "../Components/InnerOuterBox";
+import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
 import { ShortDivider } from "../Components/Divider";
 import { OuterFull, OuterIcon, OuterSmallIcon } from "../Components/Button";
@@ -24,6 +24,14 @@ function Experiences() {
                         <div className="skills-list d-flex gap-2 align-items-center justify-content-center">
                           <Image src="img/icons/github-icon.svg"></Image>
                           Github
+                        </div>
+                      </OuterFull>
+                    </Col>
+                    <Col xl='3' md='4' sm='6' className="mb-3">
+                      <OuterFull>
+                        <div className="skills-list d-flex gap-2 align-items-center justify-content-center">
+                          <Image src="img/icons/figma-icon.svg"></Image>
+                          Figma
                         </div>
                       </OuterFull>
                     </Col>
