@@ -325,6 +325,7 @@ body {
   color: #ffffff;
   min-height: 100vh;
   position: relative;
+  overflow-y: overlay;
 }
 
 body #bg-component {

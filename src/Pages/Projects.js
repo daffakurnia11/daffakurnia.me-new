@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { InnerOuterBox, OuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
@@ -11,6 +12,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 function Projects() {
+  useEffect(() => {
+    document.title = 'Projects | Daffa Kurnia Fatah'
+  }, []);
+
   return (
     <Container>
       <Row>

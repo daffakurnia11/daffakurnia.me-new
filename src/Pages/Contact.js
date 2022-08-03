@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
@@ -11,6 +12,10 @@ function Iframe(props) {
 }
 
 function About() {
+  useEffect(() => {
+    document.title = 'Contacts | Daffa Kurnia Fatah'
+  }, []);
+
   return (
     <Container>
       <Row>

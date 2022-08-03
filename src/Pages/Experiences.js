@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
@@ -8,6 +9,10 @@ import skills from "../Data/skills.json";
 import experiences from "../Data/experiences.json";
 
 function Experiences() {
+  useEffect(() => {
+    document.title = 'Skills & Experiences | Daffa Kurnia Fatah'
+  }, []);
+
   return (
     <Container>
       <Row>

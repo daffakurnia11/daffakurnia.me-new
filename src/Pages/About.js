@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
@@ -5,6 +6,10 @@ import { ShortDivider } from "../Components/Divider";
 import { OuterIcon } from "../Components/Button";
 
 function About() {
+  useEffect(() => {
+    document.title = 'About | Daffa Kurnia Fatah'
+  }, []);
+
   return (
     <Container>
       <Row>

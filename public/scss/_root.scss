@@ -23,6 +23,7 @@ body {
   color: $primary-white;
   min-height: 100vh;
   position: relative;
+  overflow-y: overlay;
   #bg-component {
     overflow: hidden;
     position: absolute;

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { OuterFit, OuterIcon } from "../Components/Button";
@@ -6,6 +7,10 @@ import { InnerOuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
 
 function Home() {
+  useEffect(() => {
+    document.title = 'Home | Daffa Kurnia Fatah'
+  }, []);
+
   return (
     <Container>
       <Row>
