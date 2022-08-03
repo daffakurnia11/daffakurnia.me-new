@@ -12,7 +12,7 @@
   &-section-title {
     @include body1($primary-white);
   }
-  &-content {
+  &-ui &-content {
     width: 100%;
     height: 285px;
     position: relative;
@@ -20,17 +20,43 @@
       height: fit-content;
       padding-bottom: 72px;
     }
-    &-name {
-      @include body2($primary-white);
+  }
+  &-mobile &-content {
+    width: 100%;
+    // height: 285px;
+    height: 100%;
+    position: relative;
+    @media screen and (max-width: 576px) {
+      padding-bottom: 72px;
     }
-    &-desc {
-      @include body3($primary-white);
-      text-align: justify;
+  }
+  &-name {
+    @include body2($primary-white);
+  }
+  &-desc {
+    @include body3($primary-white);
+    text-align: justify;
+  }
+  &-web &-desc,
+  &-mobile &-desc {
+    min-height: 80px;
+    @media screen and (max-width: 768px) {
+      min-height: fit-content;
     }
-    &-link {
-      position: absolute;
+  }
+  &-category {
+    @include body3();
+    box-shadow: $shadow-inner;
+    border-radius: 16px;
+    padding: 4px 12px;
+    width: fit-content;
+  }
+  &-link {
+    position: absolute;
+    bottom: 0;
+    @include body2($primary-white);
+    @media screen and (max-width: 576px) {
       bottom: 24px;
-      @include body2($primary-white);
     }
   }
 }

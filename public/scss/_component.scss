@@ -87,6 +87,9 @@
   justify-content: center;
   box-shadow: $shadow-outer;
   border-radius: 20px;
+  &:hover {
+    box-shadow: $shadow-inner;
+  }
 }
 
 .outer-small-icon {

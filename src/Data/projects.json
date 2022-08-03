@@ -1,0 +1,517 @@
+[
+  {
+    "id" : 1,
+    "name" : "Infaqlillah App Design",
+    "type" : "Design",
+    "category" : null,
+    "description" : "Designing an application to fulfill the study case on the UX Design Submission in the Dicoding Academy Course",
+    "image" : "ui-infaqlillah.png",
+    "link" : "https://www.figma.com/proto/JngBwEroAmRLeEyhbQXHMB/Bangkit---Infaqlillah?page-id=0%3A1&node-id=0%3A3&viewport=1002%2C108%2C0.21&scaling=scale-down&starting-point-node-id=0%3A3&show-proto-sidebar=1",
+    "technology" : null
+  },
+  {
+    "id" : 2,
+    "name" : "Personal Website Design",
+    "type" : "Design",
+    "category" : null,
+    "description" : "Designing a personal website for my own website to showcase my experiences and portfolios",
+    "image" : "ui-personalweb.png",
+    "link" : "https://www.figma.com/proto/1Q5LWWyeGRIBvLvSGLJmVZ/Personal-Website-(Daffa)?page-id=0%3A1&node-id=5%3A692&viewport=-405%2C435%2C0.56&scaling=min-zoom&starting-point-node-id=5%3A692",
+    "technology" : null
+  },
+  {
+    "id" : 3,
+    "name" : "Daffakurnia.me",
+    "type" : "Website",
+    "category" : "Personal Website",
+    "description" : "A personal website for managing and showcasing my experiences, skills, and projects easy and accessible to the public.",
+    "image" : "web-daffakurnia.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 1,
+        "project_id" : 3,
+        "name" : "React",
+        "icon" : "react-icon.svg"
+      },
+      {
+        "id" : 2,
+        "project_id" : 3,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 3,
+        "project_id" : 3,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "name" : "Breakpoint Indonesia",
+    "type" : "Website",
+    "category" : "Company Website",
+    "description" : "A website creation service in the field of information technology services that focuses on website creation services from company profiles to e-commerce.",
+    "image" : "web-breakpoint.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 4,
+        "project_id" : 4,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 5,
+        "project_id" : 4,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 6,
+        "project_id" : 4,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "IFEM 2022",
+    "type" : "Website",
+    "category" : "Event Website",
+    "description" : "Held by the ITS Mechanical Engineering Department which aims to get to know the mechanical engineering department at ITS to the general public.",
+    "image" : "web-ifem.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 7,
+        "project_id" : 5,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 8,
+        "project_id" : 5,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 9,
+        "project_id" : 5,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "name" : "Petrolida 2022",
+    "type" : "Website",
+    "category" : "Event Website",
+    "description" : "Organized by the Embedded and Cyber-physical Systems Laboratory which aims for Engineering Physics students to learn the C++ programming language.",
+    "image" : "web-petrolida.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 10,
+        "project_id" : 6,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 11,
+        "project_id" : 6,
+        "name" : "React",
+        "icon" : "react-icon.svg"
+      },
+      {
+        "id" : 12,
+        "project_id" : 6,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 13,
+        "project_id" : 6,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 7,
+    "name" : "C++ Programming Training",
+    "type" : "Website",
+    "category" : "Mini Classroom Website",
+    "description" : "Organized by the Embedded and Cyber-physical Systems Laboratory which aims for Engineering Physics students to learn the C++ programming language.",
+    "image" : "web-prokom.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 14,
+        "project_id" : 7,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 15,
+        "project_id" : 7,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 16,
+        "project_id" : 7,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 8,
+    "name" : "Smarthydroponic Platform",
+    "type" : "Website",
+    "category" : "Monitoring Website",
+    "description" : "A platform used for monitoring hydroponic systems and hydroponic plant breeding that is integrated and based on the Internet of Things.",
+    "image" : "web-smarthydroponic.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 17,
+        "project_id" : 8,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 18,
+        "project_id" : 8,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 19,
+        "project_id" : 8,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 9,
+    "name" : "EPW ITS 2022",
+    "type" : "Website",
+    "category" : "Event Website",
+    "description" : "The biggest event held by Engineering Physics ITS with the aim of introducing Engineering Physics to the general public and high school students.",
+    "image" : "web-epw.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 20,
+        "project_id" : 9,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 21,
+        "project_id" : 9,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 22,
+        "project_id" : 9,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 10,
+    "name" : "SPE ITS Student Chapter",
+    "type" : "Website",
+    "category" : "Organization Website",
+    "description" : "Society of Petroleum Engineers (SPE) ITS is an organization that encourages the professional development through involvement in the oil and gas industry.",
+    "image" : "web-spe.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 23,
+        "project_id" : 10,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 24,
+        "project_id" : 10,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 25,
+        "project_id" : 10,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 11,
+    "name" : "Vettalk Indonesia",
+    "type" : "Website",
+    "category" : "Company Website",
+    "description" : "A companies engaged in the field of digital-based veterinary clinic consultation and prioritizes digital marketing in reaching animal owners.",
+    "image" : "web-vettalk.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 26,
+        "project_id" : 11,
+        "name" : "Laravel",
+        "icon" : "laravel-icon.svg"
+      },
+      {
+        "id" : 27,
+        "project_id" : 11,
+        "name" : "Bootstrap",
+        "icon" : "bootstrap-icon.svg"
+      },
+      {
+        "id" : 28,
+        "project_id" : 11,
+        "name" : "Sass",
+        "icon" : "sass-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 12,
+    "name" : "UKM EXPO ITS",
+    "type" : "Website",
+    "category" : "Event Website",
+    "description" : "A series of events organized by ITS LMB with the aim of being a medium for introducing all Student Activity Units (UKM) at ITS to 2021 students.",
+    "image" : "web-ukmexpo.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 29,
+        "project_id" : 12,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 30,
+        "project_id" : 12,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 13,
+    "name" : "GERIGI ITS",
+    "type" : "Website",
+    "category" : "Mini Classroom Website",
+    "description" : "One of the events organized by ITS under the auspices of BEM ITS as a means of introducing the ITS environment to new students.",
+    "image" : "web-gerigi.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 31,
+        "project_id" : 13,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 32,
+        "project_id" : 13,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 14,
+    "name" : "Infaqlillah",
+    "type" : "Website",
+    "category" : "Organization Website",
+    "description" : "A not-for-profit organization that is engaged in a social sphere that helps and supports others to strive to achieve a better life economically.",
+    "image" : "web-infaqlillah.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 33,
+        "project_id" : 14,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 34,
+        "project_id" : 14,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 15,
+    "name" : "Deligo Cloud Kitchen",
+    "type" : "Website",
+    "category" : "Company Website",
+    "description" : "A shared kitchen service provider or Cloud Kitchen that helps the culinary business expand quickly at low costs with various benefits.",
+    "image" : "web-deligo.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 35,
+        "project_id" : 15,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 36,
+        "project_id" : 15,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 16,
+    "name" : "Python Training 2021",
+    "type" : "Website",
+    "category" : "Mini Classroom Website",
+    "description" : "Organized by the Embedded and Cyber-physical Systems Laboratory which aims for Engineering Physics students to learn the python programming language.",
+    "image" : "web-python.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 37,
+        "project_id" : 16,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 38,
+        "project_id" : 16,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 17,
+    "name" : "Esentika",
+    "type" : "Website",
+    "category" : "Company Website",
+    "description" : "A visual design and brand development service provider that focuses on content writing and typography, branding design, and logo creation.",
+    "image" : "web-esentika.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 39,
+        "project_id" : 17,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 18,
+    "name" : "Archproject 2021",
+    "type" : "Website",
+    "category" : "Event Website",
+    "description" : "Held by the ITS Architecture Department which aims to get to know the architecture department at ITS and the event to work in the architectural field.",
+    "image" : "web-archproject.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 40,
+        "project_id" : 18,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 41,
+        "project_id" : 18,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 19,
+    "name" : "Ini Lho ITS! 2021",
+    "type" : "Website",
+    "category" : "Event Website",
+    "description" : "One of the biggest events held by the Sepuluh Nopember Institute of Technology for introduction and branding to high school students.",
+    "image" : "web-ilits.png",
+    "link" : null,
+    "technology" : [
+      {
+        "id" : 42,
+        "project_id" : 19,
+        "name" : "Codeigniter",
+        "icon" : "codeigniter-icon.svg"
+      },
+      {
+        "id" : 43,
+        "project_id" : 19,
+        "name" : "Bootstrap4",
+        "icon" : "bootstrap4-icon.svg"
+      }
+    ]
+  },
+  {
+    "id" : 20,
+    "name" : "Github Users App",
+    "type" : "Mobile",
+    "category" : null,
+    "description" : "Creating an application for displaying Github Users with details contains of name, username, repositories, followers, and following.",
+    "image" : ["app-github-users1.png", "app-github-users2.png"],
+    "link" : "https://github.com/daffakurnia11/Github-Users",
+    "technology" : null
+  },
+  {
+    "id" : 21,
+    "name" : "Story App",
+    "type" : "Mobile",
+    "category" : null,
+    "description" : "Creating an application for displaying stories from other users and creating an own stories for sharing to others.",
+    "image" : ["app-story1.png", "app-story2.png", "app-story3.png"],
+    "link" : "https://github.com/daffakurnia11/StoryApp",
+    "technology" : null
+  },
+  {
+    "id" : 22,
+    "name" : "To Do App",
+    "type" : "Mobile",
+    "category" : null,
+    "description" : "Creating an application for managing the activities which can be filtered by an activities that have done or not yet.",
+    "image" : ["app-todo1.png", "app-todo2.png", "app-todo3.png"],
+    "link" : "https://github.com/daffakurnia11/ToDoList",
+    "technology" : null
+  },
+  {
+    "id" : 23,
+    "name" : "Course Scheduler App",
+    "type" : "Mobile",
+    "category" : null,
+    "description" : "Creating an application for managing the course schedule and displaying the upcoming schedule every day.",
+    "image" : ["app-course-scheduler1.png", "app-course-scheduler2.png", "app-course-scheduler3.png", "app-course-scheduler4.png"],
+    "link" : "https://github.com/daffakurnia11/CourseScheduleApp",
+    "technology" : null
+  },
+  {
+    "id" : 24,
+    "name" : "Habit Tracker App",
+    "type" : "Mobile",
+    "category" : null,
+    "description" : "Creating an application for managing the habit of the users which displays random habits and all habits that can sort by priority",
+    "image" : ["app-habit1.png", "app-habit2.png", "app-habit3.png", "app-habit4.png"],
+    "link" : "https://github.com/daffakurnia11/HabitApp",
+    "technology" : null
+  }
+]

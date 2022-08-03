@@ -3,7 +3,12 @@ import { InnerOuterBox, OuterBox } from "../Components/Box";
 import Menu from "../Components/Menu";
 import { ShortDivider } from "../Components/Divider";
 import { OuterFit, OuterIcon } from "../Components/Button";
-import { Link } from "react-router-dom";
+import projects from "../Data/projects.json";
+
+import { Autoplay, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 function Projects() {
   return (
@@ -26,57 +31,38 @@ function Projects() {
                     </OuterIcon>
                     <h3 className="project-section-title">UI Design using Figma</h3>
                   </div>
-                  <Row className="mt-4">
-                    <Col xxl='6' className="mb-3">
-                      <OuterBox>
-                        <Row>
-                          <Col sm='7'>
-                            <div className="project-content">
-                              <h4 className="project-content-name">Infaqlillah Design App</h4>
-                              <ShortDivider />
-                              <p className="project-content-desc mt-3">
-                                Designing an application to fulfill the study case on the UX Design Submission in the Dicoding Academy Course
-                              </p>
-                              <div className="project-content-link">
-                                <a>
-                                  <OuterFit>See the prototype</OuterFit>
-                                </a>
-                              </div>
-                            </div>
+                  <Row className="mt-4 justify-content-center">
+                    {projects.map(function (project) {
+                      if (project.type === "Design") {
+                        return (
+                          <Col xxl='6' className="mb-3">
+                            <OuterBox>
+                              <Row>
+                                <Col sm='7'>
+                                  <div className="project-content">
+                                    <h4 className="project-name">{project.name}</h4>
+                                    <ShortDivider />
+                                    <p className="project-desc mt-3">
+                                      {project.description}
+                                    </p>
+                                    <div className="project-link">
+                                      <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                        <OuterFit>See the prototype</OuterFit>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col sm='5'>
+                                  <div className="h-100 d-flex align-items-center justify-content-center">
+                                    <Image src={"img/projects/" + project.image} fluid></Image>
+                                  </div>
+                                </Col>
+                              </Row>
+                            </OuterBox>
                           </Col>
-                          <Col sm='5'>
-                            <div className="h-100 d-flex align-items-center justify-content-center">
-                              <Image src="img/projects/ui-infaqlillah.png" fluid></Image>
-                            </div>
-                          </Col>
-                        </Row>
-                      </OuterBox>
-                    </Col>
-                    <Col xxl='6' className="mb-3">
-                      <OuterBox>
-                        <Row>
-                          <Col sm='7'>
-                            <div className="project-content">
-                              <h4 className="project-content-name">Personal Website Design</h4>
-                              <ShortDivider />
-                              <p className="project-content-desc mt-3">
-                                Designing a personal website for my own website to showcase my experiences and portfolios
-                              </p>
-                              <div className="project-content-link">
-                                <a>
-                                  <OuterFit>See the prototype</OuterFit>
-                                </a>
-                              </div>
-                            </div>
-                          </Col>
-                          <Col sm='5'>
-                            <div className="h-100 d-flex align-items-center justify-content-center">
-                              <Image src="img/projects/ui-personalweb.png" fluid></Image>
-                            </div>
-                          </Col>
-                        </Row>
-                      </OuterBox>
-                    </Col>
+                        )
+                      }
+                    })}
                   </Row>
                 </div>
                 <div className="project-web mt-4">
@@ -86,6 +72,36 @@ function Projects() {
                     </OuterIcon>
                     <h3 className="project-section-title">Website Projects</h3>
                   </div>
+                  <Row className="mt-4 justify-content-center">
+                    {projects.map(function (project) {
+                      if (project.type === 'Website') {
+                        return (
+                          <Col xxl='4' md='6' className="mb-3">
+                            <OuterBox>
+                              <div className="project-content">
+                                <h4 className="project-name">{project.name}</h4>
+                                <ShortDivider />
+                                <h5 className="project-category mt-3">{project.category}</h5>
+                                <p className="project-desc mt-3">
+                                  {project.description}
+                                </p>
+                                <Image rounded fluid src={"img/projects/" + project.image} className="mt-3"></Image>
+                                <div className="d-flex gap-3 mt-4">
+                                  {project.technology.map(function (tech) {
+                                    return (
+                                      <OuterIcon>
+                                        <Image src={"img/icons/" + tech.icon}></Image>
+                                      </OuterIcon>
+                                    )
+                                  })}
+                                </div>
+                              </div>
+                            </OuterBox>
+                          </Col>
+                        )
+                      }
+                    })}
+                  </Row>
                 </div>
                 <div className="project-mobile mt-4">
                   <div className="d-flex align-items-center gap-3">
@@ -94,6 +110,60 @@ function Projects() {
                     </OuterIcon>
                     <h3 className="project-section-title">Mobile App</h3>
                   </div>
+                  <Row className="mt-4 justify-content-center">
+                    {projects.map(function (project) {
+                      if (project.type === 'Mobile') {
+                        return (
+                          <Col xxl='6' className="mb-3">
+                            <OuterBox>
+                              <Row>
+                                <Col sm='7' md='9' xxl='7'>
+                                  <div className="project-content">
+                                    <h4 className="project-name">{project.name}</h4>
+                                    <ShortDivider />
+                                    <p className="project-desc mt-3">
+                                      {project.description}
+                                    </p>
+                                    <div className="project-link">
+                                      <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                        <OuterFit>See the prototype</OuterFit>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col sm='5' md='3' xxl='5'>
+                                  <div className="h-100 d-flex align-items-center justify-content-center">
+                                    <Swiper
+                                      spaceBetween={30}
+                                      loop={true}
+                                      centeredSlides={true}
+                                      autoplay={{
+                                        delay: 1000,
+                                        disableOnInteraction: false,
+                                      }}
+                                      pagination={{
+                                        clickable: true,
+                                      }}
+                                      modules={[Autoplay, Pagination]}
+                                      className="mySwiper"
+                                    >
+                                      {project.image.map(function (image) {
+                                        return (
+                                          <SwiperSlide>
+                                            <Image fluid src={"img/projects/" + image}></Image>
+                                          </SwiperSlide>
+                                        )
+                                      })}
+                                    </Swiper>
+                                  </div>
+                                </Col>
+                              </Row>
+                            </OuterBox>
+                          </Col>
+                        )
+                      }
+                    })}
+                  </Row>
                 </div>
               </div>
             </InnerOuterBox>
