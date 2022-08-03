@@ -1,41 +1,27 @@
-.inner-outer-box {
+.box-outer {
   box-shadow: $shadow-inner;
   border-radius: 16px;
   width: 100%;
-  padding: 12px;
-  position: relative;
-  &::after {
+  padding: 8px;
+  & > .box-inner {
     background-color: $primary-blue;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    content: "";
-    width: calc(100% - 16px);
-    height: calc(100% - 16px);
-    margin: 8px;
+    width: 100%;
+    height: 100%;
     box-shadow: $shadow-outer;
     border-radius: 12px;
   }
 }
 
-.inner-outer-circle {
+.circle-outer {
   box-shadow: $shadow-inner;
   border-radius: 50%;
   width: 100%;
   height: 100%;
-  padding: 12px;
-  position: relative;
-  &::after {
+  padding: 8px;
+  & > .circle-inner {
     background-color: $primary-blue;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    content: "";
-    width: calc(100% - 16px);
-    height: calc(100% - 16px);
-    margin: 8px;
+    width: 100%;
+    height: 100%;
     box-shadow: $shadow-outer;
     border-radius: 50%;
   }
@@ -57,6 +43,7 @@
 }
 
 .outer-full {
+  width: 100%;
   padding: 8px 24px;
   background-color: $primary-blue;
   box-shadow: $shadow-outer;
@@ -90,6 +77,28 @@
   &:hover {
     box-shadow: $shadow-inner;
   }
+}
+
+.inner-icon {
+  background-color: $primary-blue;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: $shadow-inner;
+  border-radius: 20px;
+}
+
+.inner-big-icon {
+  background-color: $primary-blue;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: $shadow-inner;
+  border-radius: 30px;
 }
 
 .outer-small-icon {

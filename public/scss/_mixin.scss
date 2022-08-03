@@ -35,6 +35,21 @@
   color: $color;
 }
 
+@mixin heading6($color: $primary-white) {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+
+  color: $color;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 @mixin subtitle1($color: $primary-white) {
   font-family: "Rubik", sans-serif;
   font-style: normal;

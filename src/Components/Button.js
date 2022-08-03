@@ -17,3 +17,11 @@ export function OuterIcon(props) {
 export function OuterSmallIcon(props) {
   return <div className="outer-small-icon">{props.children}</div>
 }
+
+export function InnerIcon(props) {
+  return <div className="inner-icon">{props.children}</div>
+}
+
+export function InnerBigIcon(props) {
+  return <div className="inner-big-icon">{props.children}</div>
+}

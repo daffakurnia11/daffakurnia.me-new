@@ -10,7 +10,9 @@ export default function Menu(props) {
         <div className="menu">
           <div className="menu-profile mb-3 d-none d-lg-block">
             <InnerOuterCircle>
-              <Image src="img/profile.jpg" roundedCircle fluid></Image>
+              <div className="d-flex p-1">
+                <Image src="img/profile.jpg" roundedCircle fluid></Image>
+              </div>
             </InnerOuterCircle>
           </div>
           <h2 className="menu-fullname text-center">Daffa Kurnia Fatah</h2>
@@ -56,7 +58,9 @@ export default function Menu(props) {
               {props.children === 'Contact' ? (
                 <InnerFull>Contact</InnerFull>
               ) : (
-                <OuterFull>Contact</OuterFull>
+                <Link to="/contact">
+                  <OuterFull>Contact</OuterFull>
+                </Link>
               )}
             </li>
           </ul>
