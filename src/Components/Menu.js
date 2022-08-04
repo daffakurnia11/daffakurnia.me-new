@@ -1,9 +1,11 @@
 import { Image } from "react-bootstrap";
 import { InnerFull, OuterFull } from "./Button";
 import { InnerOuterBox, InnerOuterCircle } from "./Box";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-export default function Menu(props) {
+export default function Menu() {
+  const location = useLocation();
+
   return (
     <div id="menu">
       <InnerOuterBox>
@@ -19,7 +21,7 @@ export default function Menu(props) {
           <p className="menu-jobs text-center">Software Developer</p>
           <ul className="menu-list mt-3 text-center d-flex flex-row flex-wrap justify-content-center flex-lg-column">
             <li className="mb-3 mx-2 mx-lg-0">
-              {props.children === 'Home' ? (
+              {location.pathname === '/' ? (
                 <InnerFull>Home</InnerFull>
               ) : (
                 <Link to="/">
@@ -28,7 +30,7 @@ export default function Menu(props) {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {props.children === 'About' ? (
+              {location.pathname === '/about' ? (
                 <InnerFull>About</InnerFull>
               ) : (
                 <Link to="/about">
@@ -37,7 +39,7 @@ export default function Menu(props) {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {props.children === 'Experiences' ? (
+              {location.pathname === '/experiences' ? (
                 <InnerFull>Experiences</InnerFull>
               ) : (
                 <Link to="/experiences">
@@ -46,7 +48,7 @@ export default function Menu(props) {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {props.children === 'Projects' ? (
+              {location.pathname === '/projects' ? (
                 <InnerFull>Projects</InnerFull>
               ) : (
                 <Link to="/projects">
@@ -55,7 +57,7 @@ export default function Menu(props) {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {props.children === 'Contact' ? (
+              {location.pathname === '/contact' ? (
                 <InnerFull>Contact</InnerFull>
               ) : (
                 <Link to="/contact">

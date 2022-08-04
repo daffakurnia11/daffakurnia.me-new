@@ -20,7 +20,7 @@ function Projects() {
     <Container>
       <Row>
         <Col lg={{ span: 4, order: 'last' }} xxl="3">
-          <Menu>Projects</Menu>
+          <Menu />
         </Col>
         <Col lg={{ span: 8, order: 'first' }} xxl="9">
           <div id="content">

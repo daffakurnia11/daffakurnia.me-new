@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Experiences from "./Pages/Experiences";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
+import Menu from "./Components/Menu";
 
 function App() {
   return (
