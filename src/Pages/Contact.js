@@ -1,7 +1,6 @@
 import { useEffect } from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import { InnerOuterBox } from "../Components/Box";
-import Menu from "../Components/Menu";
 import { ShortDivider } from "../Components/Divider";
 import { InnerBigIcon, InnerIcon, OuterFull } from "../Components/Button";
 
@@ -17,127 +16,114 @@ function About() {
   }, []);
 
   return (
-    <Container>
-      <Row>
-        <Col lg={{ span: 4, order: 'last' }} xxl="3">
-          <Menu />
+    <div className="contacts">
+      <h2 className="section-title">Location</h2>
+      <ShortDivider />
+      <InnerOuterBox>
+        <div className="location-content p-1">
+          <Iframe iframe={iframe} />
+        </div>
+      </InnerOuterBox>
+      <h2 className="section-title mt-4">My Contact</h2>
+      <ShortDivider />
+      <div className="address">
+        <InnerOuterBox>
+          <div className="address-box d-flex justify-content-center align-items-center">
+            <h3 className="address-content text-center">
+              Gading Fajar 1 Buduran, Sidoarjo<br />
+              East Java, Indonesia - 61252
+            </h3>
+          </div>
+        </InnerOuterBox>
+        <div className="address-icon">
+          <InnerBigIcon>
+            <Image src="img/icons/location-big-icon.svg"></Image>
+          </InnerBigIcon>
+        </div>
+      </div>
+      <Row className="contact justify-content-center">
+        <Col xxl='4' sm='6' className="mb-3">
+          <div className="d-flex flex-column gap-3 align-items-center">
+            <InnerIcon>
+              <Image src="img/icons/mail-icon.svg"></Image>
+            </InnerIcon>
+            <a href="mailto:daffakurniaf11@gmail.com" target="_blank" rel="noopener noreferrer" className="d-block w-100 px-2">
+              <OuterFull>
+                <p className="contact-text text-center">daffakurniaf11@gmail.com</p>
+              </OuterFull>
+            </a>
+          </div>
         </Col>
-        <Col lg={{ span: 8, order: 'first' }} xxl="9">
-          <div id="content">
-            <InnerOuterBox>
-              <div className="contacts">
-                <h2 className="section-title">Location</h2>
-                <ShortDivider />
-                <InnerOuterBox>
-                  <div className="location-content p-1">
-                    <Iframe iframe={iframe} />
-                  </div>
-                </InnerOuterBox>
-                <h2 className="section-title mt-4">My Contact</h2>
-                <ShortDivider />
-                <div className="address">
-                  <InnerOuterBox>
-                    <div className="address-box d-flex justify-content-center align-items-center">
-                      <h3 className="address-content text-center">
-                        Gading Fajar 1 Buduran, Sidoarjo<br />
-                        East Java, Indonesia - 61252
-                      </h3>
-                    </div>
-                  </InnerOuterBox>
-                  <div className="address-icon">
-                    <InnerBigIcon>
-                      <Image src="img/icons/location-big-icon.svg"></Image>
-                    </InnerBigIcon>
-                  </div>
-                </div>
-                <Row className="contact justify-content-center">
-                  <Col xxl='4' sm='6' className="mb-3">
-                    <div className="d-flex flex-column gap-3 align-items-center">
-                      <InnerIcon>
-                        <Image src="img/icons/mail-icon.svg"></Image>
-                      </InnerIcon>
-                      <a href="mailto:daffakurniaf11@gmail.com" target="_blank" rel="noopener noreferrer" className="d-block w-100 px-2">
-                        <OuterFull>
-                          <p className="contact-text text-center">daffakurniaf11@gmail.com</p>
-                        </OuterFull>
-                      </a>
-                    </div>
-                  </Col>
-                  <Col xxl='4' sm='6' className="mb-3">
-                    <div className="d-flex flex-column gap-3 align-items-center">
-                      <InnerIcon>
-                        <Image src="img/icons/linkedin-icon.svg"></Image>
-                      </InnerIcon>
-                      <a href="https://www.linkedin.com/in/daffakurniafatah/" target="_blank" rel="noopener noreferrer" className="d-block w-100 px-2">
-                        <OuterFull>
-                          <p className="contact-text text-center">Daffa Kurnia Fatah</p>
-                        </OuterFull>
-                      </a>
-                    </div>
-                  </Col>
-                  <Col xxl='4' sm='6' className="mb-3">
-                    <div className="d-flex flex-column gap-3 align-items-center">
-                      <InnerIcon>
-                        <Image src="img/icons/phone-icon.svg"></Image>
-                      </InnerIcon>
-                      <a href="https://wa.me/6285156317473" target="_blank" rel="noopener noreferrer" className="d-block w-100 px-2">
-                        <OuterFull>
-                          <p className="contact-text text-center">+62 851 5631 7473</p>
-                        </OuterFull>
-                      </a>
-                    </div>
-                  </Col>
-                </Row>
-                <h2 className="section-title mt-4">Social Media</h2>
-                <ShortDivider />
-                <Row className="justify-content-center mt-4">
-                  <Col xxl='3' xl='4' sm='6' className="mb-3">
-                    <a href="http://line.me/ti/p/~daffakurnia11" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
-                      <OuterFull>
-                        <div className="d-flex align-items-center justify-content-center gap-2">
-                          <Image src="img/icons/line-icon.svg"></Image>
-                          <span className="socials-text">daffakurnia11</span>
-                        </div>
-                      </OuterFull>
-                    </a>
-                  </Col>
-                  <Col xxl='3' xl='4' sm='6' className="mb-3">
-                    <a href="https://wa.me/6285156317473" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
-                      <OuterFull>
-                        <div className="d-flex align-items-center justify-content-center gap-2">
-                          <Image src="img/icons/whatsapp-icon.svg"></Image>
-                          <span className="socials-text">+62 851 5631 7473</span>
-                        </div>
-                      </OuterFull>
-                    </a>
-                  </Col>
-                  <Col xxl='3' xl='4' sm='6' className="mb-3">
-                    <a href="https://www.instagram.com/daffakurniaf11/" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
-                      <OuterFull>
-                        <div className="d-flex align-items-center justify-content-center gap-2">
-                          <Image src="img/icons/instagram-icon.svg"></Image>
-                          <span className="socials-text">@daffakurniaf11</span>
-                        </div>
-                      </OuterFull>
-                    </a>
-                  </Col>
-                  <Col xxl='3' xl='4' sm='6' className="mb-3">
-                    <a href="https://github.com/daffakurnia11" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
-                      <OuterFull>
-                        <div className="d-flex align-items-center justify-content-center gap-2">
-                          <Image src="img/icons/github-icon.svg"></Image>
-                          <span className="socials-text">daffakurnia11</span>
-                        </div>
-                      </OuterFull>
-                    </a>
-                  </Col>
-                </Row>
-              </div>
-            </InnerOuterBox>
+        <Col xxl='4' sm='6' className="mb-3">
+          <div className="d-flex flex-column gap-3 align-items-center">
+            <InnerIcon>
+              <Image src="img/icons/linkedin-icon.svg"></Image>
+            </InnerIcon>
+            <a href="https://www.linkedin.com/in/daffakurniafatah/" target="_blank" rel="noopener noreferrer" className="d-block w-100 px-2">
+              <OuterFull>
+                <p className="contact-text text-center">Daffa Kurnia Fatah</p>
+              </OuterFull>
+            </a>
+          </div>
+        </Col>
+        <Col xxl='4' sm='6' className="mb-3">
+          <div className="d-flex flex-column gap-3 align-items-center">
+            <InnerIcon>
+              <Image src="img/icons/phone-icon.svg"></Image>
+            </InnerIcon>
+            <a href="https://wa.me/6285156317473" target="_blank" rel="noopener noreferrer" className="d-block w-100 px-2">
+              <OuterFull>
+                <p className="contact-text text-center">+62 851 5631 7473</p>
+              </OuterFull>
+            </a>
           </div>
         </Col>
       </Row>
-    </Container>
+      <h2 className="section-title mt-4">Social Media</h2>
+      <ShortDivider />
+      <Row className="justify-content-center mt-4">
+        <Col xxl='3' xl='4' sm='6' className="mb-3">
+          <a href="http://line.me/ti/p/~daffakurnia11" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
+            <OuterFull>
+              <div className="d-flex align-items-center justify-content-center gap-2">
+                <Image src="img/icons/line-icon.svg"></Image>
+                <span className="socials-text">daffakurnia11</span>
+              </div>
+            </OuterFull>
+          </a>
+        </Col>
+        <Col xxl='3' xl='4' sm='6' className="mb-3">
+          <a href="https://wa.me/6285156317473" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
+            <OuterFull>
+              <div className="d-flex align-items-center justify-content-center gap-2">
+                <Image src="img/icons/whatsapp-icon.svg"></Image>
+                <span className="socials-text">+62 851 5631 7473</span>
+              </div>
+            </OuterFull>
+          </a>
+        </Col>
+        <Col xxl='3' xl='4' sm='6' className="mb-3">
+          <a href="https://www.instagram.com/daffakurniaf11/" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
+            <OuterFull>
+              <div className="d-flex align-items-center justify-content-center gap-2">
+                <Image src="img/icons/instagram-icon.svg"></Image>
+                <span className="socials-text">@daffakurniaf11</span>
+              </div>
+            </OuterFull>
+          </a>
+        </Col>
+        <Col xxl='3' xl='4' sm='6' className="mb-3">
+          <a href="https://github.com/daffakurnia11" target="_blank" rel="noopener noreferrer" className="w-100 d-block">
+            <OuterFull>
+              <div className="d-flex align-items-center justify-content-center gap-2">
+                <Image src="img/icons/github-icon.svg"></Image>
+                <span className="socials-text">daffakurnia11</span>
+              </div>
+            </OuterFull>
+          </a>
+        </Col>
+      </Row>
+    </div>
   )
 }
 
