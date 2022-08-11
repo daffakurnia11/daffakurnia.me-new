@@ -7,7 +7,6 @@ import Experiences from "./Pages/Experiences";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Menu from "./Components/Menu";
-import { InnerOuterBox } from "./Components/Box";
 import { Col, Container, Row } from "react-bootstrap";
 
 function App() {
@@ -21,15 +20,13 @@ function App() {
           </Col>
           <Col lg={{ span: 8, order: 'first' }} xxl="9">
             <div id="content">
-              <InnerOuterBox>
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/experiences" element={<Experiences />} />
-                  <Route path="/projects" element={<Projects />} />
-                  <Route path="/contact" element={<Contact />} />
-                </Routes>
-              </InnerOuterBox>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/experiences" element={<Experiences />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
             </div>
           </Col>
         </Row>

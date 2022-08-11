@@ -330,10 +330,10 @@ body {
 
 body #bg-component {
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   z-index: -1;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 body #bg-component .top-left {
