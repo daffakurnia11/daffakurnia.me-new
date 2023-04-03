@@ -1,3 +1,4 @@
+import React from "react";
 import { Image } from "react-bootstrap";
 import { InnerFull, OuterFull } from "./Button";
 import { InnerOuterBox, InnerOuterCircle } from "./Box";
@@ -21,7 +22,7 @@ export default function Menu() {
           <p className="menu-jobs text-center">Software Developer</p>
           <ul className="menu-list mt-3 text-center d-flex flex-row flex-wrap justify-content-center flex-lg-column">
             <li className="mb-3 mx-2 mx-lg-0">
-              {location.pathname === '/' ? (
+              {location.pathname === "/" ? (
                 <InnerFull>Home</InnerFull>
               ) : (
                 <Link to="/">
@@ -30,7 +31,7 @@ export default function Menu() {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {location.pathname === '/about' ? (
+              {location.pathname === "/about" ? (
                 <InnerFull>About</InnerFull>
               ) : (
                 <Link to="/about">
@@ -39,7 +40,7 @@ export default function Menu() {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {location.pathname === '/experiences' ? (
+              {location.pathname === "/experiences" ? (
                 <InnerFull>Experiences</InnerFull>
               ) : (
                 <Link to="/experiences">
@@ -48,7 +49,7 @@ export default function Menu() {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {location.pathname === '/projects' ? (
+              {location.pathname === "/projects" ? (
                 <InnerFull>Projects</InnerFull>
               ) : (
                 <Link to="/projects">
@@ -57,7 +58,7 @@ export default function Menu() {
               )}
             </li>
             <li className="mb-3 mx-2 mx-lg-0">
-              {location.pathname === '/contact' ? (
+              {location.pathname === "/contact" ? (
                 <InnerFull>Contact</InnerFull>
               ) : (
                 <Link to="/contact">

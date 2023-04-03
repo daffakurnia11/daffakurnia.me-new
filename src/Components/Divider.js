@@ -1,7 +1,9 @@
+import React from "react";
+
 export function LongDivider() {
-  return <div className="long-divider"></div>
+  return <div className="long-divider"></div>;
 }
 
 export function ShortDivider() {
-  return <div className="short-divider"></div>
+  return <div className="short-divider"></div>;
 }
