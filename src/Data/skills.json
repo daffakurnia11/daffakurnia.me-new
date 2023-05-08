@@ -1,34 +1,42 @@
 [
   {
-    "skills" : "Github",
-    "icons" : "github-icon.svg"
+    "skills": "Git",
+    "icons": "git-icon.svg"
   },
   {
-    "skills" : "Figma",
-    "icons" : "figma-icon.svg"
+    "skills": "Figma",
+    "icons": "figma-icon.svg"
   },
   {
-    "skills" : "Bootstrap",
-    "icons" : "bootstrap-icon.svg"
+    "skills": "Bootstrap",
+    "icons": "bootstrap-icon.svg"
   },
   {
-    "skills" : "Sass",
-    "icons" : "sass-icon.svg"
+    "skills": "Ant Design",
+    "icons": "antd-icon.svg"
   },
   {
-    "skills" : "Codeigniter",
-    "icons" : "codeigniter-icon.svg"
+    "skills": "Sass",
+    "icons": "sass-icon.svg"
   },
   {
-    "skills" : "Laravel",
-    "icons" : "laravel-icon.svg"
+    "skills": "React",
+    "icons": "react-icon.svg"
   },
   {
-    "skills" : "ReactJS",
-    "icons" : "react-icon.svg"
+    "skills": "Codeigniter",
+    "icons": "codeigniter-icon.svg"
   },
   {
-    "skills" : "Kotlin",
-    "icons" : "kotlin-icon.svg"
+    "skills": "Laravel",
+    "icons": "laravel-icon.svg"
+  },
+  {
+    "skills": "Django",
+    "icons": "django-icon.svg"
+  },
+  {
+    "skills": "Kotlin",
+    "icons": "kotlin-icon.svg"
   }
 ]
