@@ -15,6 +15,17 @@ function Home() {
     <DataAos>
       <InnerOuterBox>
         <div className="home text-center">
+          <div style={{ width: 116 }} className="mx-auto mb-3">
+            <InnerOuterBox>
+              <div className="d-flex">
+                <img
+                  src="img/logo.png"
+                  alt="Dakurfa Logo"
+                  className="home-logo"
+                />
+              </div>
+            </InnerOuterBox>
+          </div>
           <h1 className="home-title">Daffa Kurnia Fatah</h1>
           <div className="d-flex gap-5 mt-3 mb-4 justify-content-center">
             <a

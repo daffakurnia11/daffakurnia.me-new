@@ -144,7 +144,6 @@ table {
   width: 100%;
   padding: 8px;
 }
-
 .box-outer > .box-inner {
   background-color: #0d0d2b;
   width: 100%;
@@ -160,7 +159,6 @@ table {
   height: 100%;
   padding: 8px;
 }
-
 .circle-outer > .circle-inner {
   background-color: #0d0d2b;
   width: 100%;
@@ -192,7 +190,6 @@ table {
   border-radius: 48px;
   transition: all 0.3s ease-in-out;
 }
-
 .outer-full:hover {
   box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
 }
@@ -205,7 +202,6 @@ table {
   border-radius: 48px;
   transition: all 0.3s ease-in-out;
 }
-
 .outer-fit:hover {
   box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
 }
@@ -219,7 +215,6 @@ table {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
   border-radius: 20px;
 }
-
 .outer-icon:hover {
   box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
 }
@@ -265,7 +260,6 @@ table {
   border-radius: 4px;
   position: relative;
 }
-
 .long-divider::after {
   background-color: #a6bcff;
   border-radius: 4px;
@@ -287,7 +281,6 @@ table {
   border-radius: 4px;
   position: relative;
 }
-
 .short-divider::after {
   background-color: #a6bcff;
   border-radius: 4px;
@@ -327,7 +320,6 @@ body {
   position: relative;
   overflow-y: overlay;
 }
-
 body #bg-component {
   overflow: hidden;
   position: fixed;
@@ -335,31 +327,26 @@ body #bg-component {
   height: 100vh;
   width: 100vw;
 }
-
 body #bg-component .top-left {
   position: absolute;
   top: 0;
   left: 0;
 }
-
 body #bg-component .top-middle {
   position: absolute;
   top: 0;
   left: 15px;
 }
-
 body #bg-component .top-right {
   position: absolute;
   top: 0;
   right: 0;
 }
-
 body #bg-component .bottom-left {
   position: absolute;
   bottom: -100px;
   left: 0;
 }
-
 body #bg-component .bottom-right {
   position: absolute;
   bottom: 0;
@@ -374,30 +361,25 @@ body #bg-component .bottom-right {
   display: flex;
   align-items: center;
 }
-
 @media screen and (max-width: 992px) {
   #menu {
     min-height: fit-content;
     margin: 24px auto;
   }
 }
-
 #menu .menu {
   padding: 32px 24px;
 }
-
 @media screen and (max-width: 992px) {
   #menu .menu {
     padding: 24px 16px;
   }
 }
-
 #menu .menu-profile {
   max-width: 200px;
   max-height: 200px;
   margin: auto;
 }
-
 #menu .menu-fullname {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -407,7 +389,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0px;
   color: #a6bcff;
 }
-
 #menu .menu-jobs {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -417,7 +398,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #a6bcff;
 }
-
 #menu .menu-list {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -427,7 +407,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.5px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   #menu .menu-list {
     font-size: 14px;
@@ -441,7 +420,6 @@ body #bg-component .bottom-right {
   display: flex;
   align-items: center;
 }
-
 @media screen and (max-width: 992px) {
   #content {
     min-height: fit-content;
@@ -452,13 +430,14 @@ body #bg-component .bottom-right {
 .home {
   padding: 64px 32px 32px;
 }
-
 @media screen and (max-width: 992px) {
   .home {
     padding: 32px 16px 24px;
   }
 }
-
+.home-logo {
+  width: 100px;
+}
 .home-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -468,14 +447,12 @@ body #bg-component .bottom-right {
   letter-spacing: -0.5px;
   color: #d3deff;
 }
-
 @media screen and (max-width: 768px) {
   .home-title {
     font-size: 24px;
     line-height: 28px;
   }
 }
-
 .home-desc {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -485,14 +462,12 @@ body #bg-component .bottom-right {
   letter-spacing: 0.5px;
   color: #a6bcff;
 }
-
 @media screen and (max-width: 768px) {
   .home-desc {
     font-size: 14px;
     line-height: 18px;
   }
 }
-
 .home-desc .desc-highlight {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -506,14 +481,12 @@ body #bg-component .bottom-right {
   box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
   border-radius: 16px;
 }
-
 @media screen and (max-width: 768px) {
   .home-desc .desc-highlight {
     font-size: 14px;
     line-height: 18px;
   }
 }
-
 .home-button {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -523,7 +496,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.5px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .home-button {
     font-size: 14px;
@@ -534,13 +506,11 @@ body #bg-component .bottom-right {
 .about {
   padding: 32px 48px;
 }
-
 @media screen and (max-width: 768px) {
   .about {
     padding: 16px 24px;
   }
 }
-
 .about-section {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -550,7 +520,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.15px;
   color: #a6bcff;
 }
-
 .about-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -560,7 +529,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #d3deff;
 }
-
 .about-jobs {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -570,7 +538,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #a6bcff;
 }
-
 .about-content {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -580,14 +547,12 @@ body #bg-component .bottom-right {
   letter-spacing: 0.5px;
   color: #a6bcff;
 }
-
 @media screen and (max-width: 768px) {
   .about-content {
     font-size: 14px;
     line-height: 18px;
   }
 }
-
 .about-content .content-highlight {
   color: #ffffff;
 }
@@ -595,13 +560,11 @@ body #bg-component .bottom-right {
 .experiences {
   padding: 32px 48px;
 }
-
 @media screen and (max-width: 768px) {
   .experiences {
     padding: 16px 24px;
   }
 }
-
 .experiences .skills-section {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -611,7 +574,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.15px;
   color: #a6bcff;
 }
-
 .experiences .skills-list {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -621,14 +583,12 @@ body #bg-component .bottom-right {
   letter-spacing: 0.5px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .experiences .skills-list {
     font-size: 14px;
     line-height: 18px;
   }
 }
-
 .experiences .experience-section {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -638,12 +598,10 @@ body #bg-component .bottom-right {
   letter-spacing: 0.15px;
   color: #a6bcff;
 }
-
 .experiences .experience .section-content {
   position: relative;
   margin-left: 18.5px;
 }
-
 .experiences .experience .section-content::before {
   position: absolute;
   content: "";
@@ -654,12 +612,10 @@ body #bg-component .bottom-right {
   box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
   background-color: #0d0d2b;
 }
-
 .experiences .experience .section-content .content-list {
   padding-left: 16px;
   position: relative;
 }
-
 .experiences .experience .section-content .content-list::before {
   position: absolute;
   content: "";
@@ -671,7 +627,6 @@ body #bg-component .bottom-right {
   border-radius: 4px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(37, 37, 64, 0.25);
 }
-
 .experiences .experience .section-content .content-list .list-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -682,7 +637,6 @@ body #bg-component .bottom-right {
   color: #ffffff;
   text-align: justify;
 }
-
 .experiences .experience .section-content .content-list .list-date {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -692,13 +646,11 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #d3deff;
 }
-
 .experiences .experience .section-content .content-list .list-date .present-highlight {
   box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25), inset -3px -3px 3px rgba(37, 37, 64, 0.25);
   border-radius: 16px;
   padding: 4px 12px;
 }
-
 .experiences .experience .section-content .content-list .list-place {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -712,13 +664,11 @@ body #bg-component .bottom-right {
 .project {
   padding: 32px 48px;
 }
-
 @media screen and (max-width: 768px) {
   .project {
     padding: 16px 24px;
   }
 }
-
 .project-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -728,7 +678,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.15px;
   color: #a6bcff;
 }
-
 .project-subtitle {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -738,7 +687,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.1px;
   color: #ffffff;
 }
-
 .project-section-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -748,39 +696,33 @@ body #bg-component .bottom-right {
   letter-spacing: 0.5px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .project-section-title {
     font-size: 14px;
     line-height: 18px;
   }
 }
-
 .project-ui .project-content {
   width: 100%;
   height: 285px;
   position: relative;
 }
-
 @media screen and (max-width: 576px) {
   .project-ui .project-content {
     height: fit-content;
     padding-bottom: 72px;
   }
 }
-
 .project-mobile .project-content {
   width: 100%;
   height: 100%;
   position: relative;
 }
-
 @media screen and (max-width: 576px) {
   .project-mobile .project-content {
     padding-bottom: 72px;
   }
 }
-
 .project-name {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -790,7 +732,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #ffffff;
 }
-
 .project-desc {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -801,19 +742,14 @@ body #bg-component .bottom-right {
   color: #ffffff;
   text-align: justify;
 }
-
-.project-web .project-desc,
-.project-mobile .project-desc {
+.project-web .project-desc, .project-mobile .project-desc {
   min-height: 80px;
 }
-
 @media screen and (max-width: 768px) {
-  .project-web .project-desc,
-  .project-mobile .project-desc {
+  .project-web .project-desc, .project-mobile .project-desc {
     min-height: fit-content;
   }
 }
-
 .project-category {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -827,7 +763,6 @@ body #bg-component .bottom-right {
   padding: 4px 12px;
   width: fit-content;
 }
-
 .project-link {
   position: absolute;
   bottom: 0;
@@ -839,7 +774,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 576px) {
   .project-link {
     bottom: 24px;
@@ -849,13 +783,11 @@ body #bg-component .bottom-right {
 .contacts {
   padding: 32px 48px;
 }
-
 @media screen and (max-width: 768px) {
   .contacts {
     padding: 16px 24px;
   }
 }
-
 .contacts .section-title {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -865,17 +797,14 @@ body #bg-component .bottom-right {
   letter-spacing: 0.15px;
   color: #a6bcff;
 }
-
 .contacts .address {
   margin-top: 32px;
   position: relative;
 }
-
 .contacts .address-box {
   width: 100%;
   height: 180px;
 }
-
 .contacts .address-content {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -885,27 +814,23 @@ body #bg-component .bottom-right {
   letter-spacing: 0.15px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .contacts .address-content {
     font-size: 14px;
     line-height: 18px;
   }
 }
-
 .contacts .address-icon {
   position: absolute;
   top: -26px;
   left: 50%;
   transform: translateX(-50%);
 }
-
 .contacts .contact {
   margin-top: -26px;
   position: relative;
   z-index: 2;
 }
-
 .contacts .contact-text {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -915,7 +840,6 @@ body #bg-component .bottom-right {
   letter-spacing: 0.25px;
   color: #ffffff;
 }
-
 .contacts .socials-text {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -924,5 +848,4 @@ body #bg-component .bottom-right {
   line-height: 16px;
   letter-spacing: 0.25px;
   color: #ffffff;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
